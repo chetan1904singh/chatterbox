@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route } from "react-router-dom/cjs/react-router-dom.min";
+import {Chats} from "./pages/Chats.js"
+import axios from "axios"
 
 function App() {
   return (
     <div className="App">
-      hello
+      
+      <Route path="/" component={Chats}></Route>
     </div>
   );
 }
