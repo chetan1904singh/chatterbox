@@ -18,3 +18,11 @@ root.render(
 );
 
 //This connects React to HTML
+//First all comps int App-> then App in Index.js -> Index.js renders all html
+
+/*
+✔ Components → combined in App.js
+✔ App.js → rendered by index.js
+✔ index.js → injects into index.html
+✔ index.html → shown in browser
+*/
